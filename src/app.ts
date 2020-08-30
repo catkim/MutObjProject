@@ -1,1 +1,3 @@
-console.log("it's working!");
+import { GetElements } from './domElements.js';
+const whatisIt = new GetElements('getElementById', 'styleBtns');
+console.log(whatisIt);
